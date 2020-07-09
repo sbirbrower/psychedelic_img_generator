@@ -3,6 +3,7 @@ import cv2
 from scipy.ndimage import generic_filter
 from scipy.stats import entropy
 from skimage import filters
+import os
 
 strel = np.array([[0,   0,   1,   1,   1,   0,   0],
                   [0,   1,   1,   1,   1,   1,   0],
@@ -216,4 +217,4 @@ def process_image(img_path, resize):
     ksize = (2, 2) 
     final = cv2.blur(final, ksize)
 
-    cv2.imwrite('/Users/sydney/Files/projects/static/final.png', final)
+    cv2.imwrite(os.getcwd() + '/static/final.png', final)
