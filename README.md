@@ -12,5 +12,6 @@ To run
 ![](https://github.com/sbirbrower/psychedelic_img_generator/blob/master/img/final_zebra.png?raw=true)
 
 
-  
+![](https://github.com/sbirbrower/psychedelic_img_generator/blob/master/img/whippet.png?raw=true)
+![](https://github.com/sbirbrower/psychedelic_img_generator/blob/master/img/final_whippet.png?raw=true)
 
