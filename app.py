@@ -18,7 +18,7 @@ def your_image():
     file_name = secure_filename(f.filename)
     f.save('/Users/sydney/Files/projects/static/' + file_name)
 
-    process_image('/Users/sydney/Files/projects/static/' + file_name)
+    process_image('/Users/sydney/Files/projects/static/' + file_name, request.form['size'])
 
     if request.method == 'POST':
         return redirect(url_for('static', filename='final.png'))

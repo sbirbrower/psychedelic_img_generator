@@ -51,13 +51,14 @@ def entropyfilt(img, footprint):
     return generic_filter(img.astype(np.float), _entropy, footprint=strel)
 
 
-def process_image(img_path):
+def process_image(img_path, resize=True):
 
     img = cv2.imread(img_path)
 
     # resize the image for speed
-    while img.size > 450*450*3:
-        img = cv2.resize(img, (0,0), fx=0.5, fy=0.5) 
+    if resize == True:
+        while img.size > 450*450*3:
+            img = cv2.resize(img, (0,0), fx=0.5, fy=0.5) 
 
     original_img = img.copy()
 
