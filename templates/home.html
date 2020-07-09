@@ -3,7 +3,6 @@
 
 <head>
     <meta charset="UTF-8">
-    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
     <title>Zebra Encoder</title>
     <link rel="stylesheet" type= "text/css" href= "{{ url_for('static', filename='styles.css') }}">
     <!-- <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet"> -->
@@ -14,7 +13,7 @@
 <form action="your-image" method="post" enctype="multipart/form-data"> 
     <div class="wrapper">
         <div class="file-upload">
-          <input type="file" />
+          <input id="file" name="file" type="file" />
             <p>
                 <br>
                 <span style="font-size:130px; line-height:80%;"> &#8679; </span>
