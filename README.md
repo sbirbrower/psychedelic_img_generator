@@ -8,6 +8,9 @@ To run
   flask run
 ```
 
+![](https://github.com/sbirbrower/psychedelic_img_generator/blob/master/img/normal_zebra.png?raw=true)
+![](https://github.com/sbirbrower/psychedelic_img_generator/blob/master/img/final_zebra.png?raw=true)
+
 
   
 
